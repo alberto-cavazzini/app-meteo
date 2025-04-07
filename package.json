@@ -1,0 +1,19 @@
+{
+  "name": "weather-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.38.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  }
+}
