@@ -65,8 +65,8 @@
     var Weather = /** @class */ (function () {
         function Weather() {
             this.weatherEndpoint = "https://api.openweathermap.org/data/2.5/weather";
-            this.geocodingEndpoint = "https://api.openweathermap.org/geo/1.0/direct";
-            this.forecastEndpoint = "https://api.openweathermap.org/data/2.5/forecast";
+            this.geocodingEndpoint = "http://api.openweathermap.org/geo/1.0/direct";
+            this.forecastEndpoint = "http://api.openweathermap.org/data/2.5/forecast";
             this.setting = { units: "metric", lang: "it" };
             this.apiKey = "7ffe7774698b87adefd37076515752ec";
         }
