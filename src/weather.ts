@@ -7,8 +7,8 @@ import { GeocodedLocation } from "./interfaces/geocoding.interface";
 class Weather{ 
   private static instance: Weather;
   private weatherEndpoint: string = "https://api.openweathermap.org/data/2.5/weather";
-  private geocodingEndpoint: string = "http://api.openweathermap.org/geo/1.0/direct";
-  private forecastEndpoint: string = "http://api.openweathermap.org/data/2.5/forecast";
+  private geocodingEndpoint: string = "https://api.openweathermap.org/geo/1.0/direct";
+  private forecastEndpoint: string = "https://api.openweathermap.org/data/2.5/forecast";
   private setting: {[key: string]: string} = {units: "metric", lang: "it"};
   private apiKey: string = "7ffe7774698b87adefd37076515752ec";
 
